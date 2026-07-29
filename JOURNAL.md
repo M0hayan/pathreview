@@ -18,3 +18,17 @@
 
 ## Reproducing issue Locally
 After reading the api.md file in the docs file, I confirmed that the issue persisted as there is no examples of any curl commands.
+
+## Week 8 — Reproduction & solution planning
+
+**Reproduction commit link:** [https://github.com/M0hayan/pathreview/commit/d95b4aae625c89353e658bca3fb8526dd8915f03]
+
+**Reproduction summary:**
+[I had to clone the repo locally and take the steps so that the app was working as intended. Then I read through the documentation and confirmed that there are no example curl commands in the api.md file.]
+
+**PLAN.md link:** [https://github.com/M0hayan/pathreview/blob/docs/117-add-example-curl/PLAN.md]
+
+**Walkthrough video (recommended):** []
+
+**Blockers or open questions:**
+[]
