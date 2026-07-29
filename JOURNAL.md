@@ -15,3 +15,6 @@
 **Setup confirmation:** [ O ] App runs locally at localhost:5173
 
 **Cohort ledger:** [ O ] Issue added to cohort ledger
+
+## Reproducing issue Locally
+After reading the api.md file in the docs file, I confirmed that the issue persisted as there is no examples of any curl commands.
