@@ -53,3 +53,21 @@ Completed sub-tasks:
 
 **Blockers:**
 None.
+
+### Check-in 2 (end of week)
+
+**PR link:** [(https://github.com/ascherj/pathreview/pull/931)]
+
+**Branch:** `docs/117-api-example-invocations`
+
+**What you built:**
+Updated `docs/API.md` with runnable `curl` examples for the API endpoints so new developers can quickly verify the service is working. The examples were aligned with the actual FastAPI implementation, including OAuth2 form-based login, multipart profile creation, and authenticated requests using bearer tokens.
+
+**Tests added or updated:**
+None. This was a documentation-only change, so no application behavior was modified and no unit tests were required.
+
+**Self-review confirmation:**  
+[ O ] make check passes  
+[ O ] make test-unit passes  
+
+**Draft PR feedback received from:** none
