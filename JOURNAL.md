@@ -32,3 +32,24 @@ After reading the api.md file in the docs file, I confirmed that the issue persi
 
 **Blockers or open questions:**
 []
+
+## Week 9 — Solution building & PR submission
+
+### Check-in 1 (mid-week)
+
+**Current progress:**
+Updated `docs/API.md` to include example `curl` commands for the documented API endpoints. Reviewed the FastAPI route implementations to verify the correct request formats, authentication requirements, and endpoint behavior.
+
+Completed sub-tasks:
+- Reviewed existing API documentation and identified missing invocation examples.
+- Verified endpoint methods, paths, and request formats against the API implementation.
+- Added examples for Health, Authentication, Profiles, and Reviews endpoints.
+- Documented required placeholders such as `<token>`, `<profile_id>`, and `<review_id>`.
+
+**Next steps:**
+- Review the updated documentation for formatting and accuracy.
+- Run any required project checks before opening the PR.
+- Submit the pull request and address any reviewer feedback.
+
+**Blockers:**
+None.
