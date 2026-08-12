@@ -71,3 +71,36 @@ None. This was a documentation-only change, so no application behavior was modif
 [ O ] make test-unit passes  
 
 **Draft PR feedback received from:** none
+
+## Week 10 — Iteration & reflection
+
+### Reviewer feedback
+
+**Feedback received:** [ ] Yes  [ O ] No — still awaiting review
+
+**Summary of feedback:**
+[What did reviewers comment on? Or note that no review came in.]
+N/A No feedback for summer term
+
+**How you responded:**
+[What changes did you make, or what did you reply? If no feedback,
+leave blank.]
+N/A No feedback for summer term
+---
+
+### Reflection
+
+**What was harder than you expected?**
+[The part that was harder than I expected was making sure the curl examples actually matched how the API worked. At first, the issue seemed like it would just require adding a few example commands to API.md, but I had to look through the FastAPI route implementations to confirm the correct methods, paths, request formats, authentication requirements, and parameters. For example, the login endpoint uses OAuth2 form data, while profile creation uses multipart form data. This meant I could not just write generic curl examples based on the endpoint names.]
+
+**What did you learn about working in a large codebase?**
+[I learned that working in someone else's codebase requires more investigation than working on a project from scratch. I already knew what I wanted to change, but I had to understand how the existing API was implemented before making the documentation change. Small changes can depend on details in other parts of the project, so it is important to search through the code and verify assumptions instead of just making the change based on the issue description.]
+
+**How did AI tools help — and where did they fall short?**
+[AI tools were most useful for helping me understand the existing code and documentation and for thinking through what information should be included in the API examples. They helped me work through the structure of the documentation and identify details I needed to verify. However, I still needed to inspect the actual FastAPI routes myself. AI could suggest what a curl command might look like, but I needed to confirm that the commands matched the implementation instead of assuming the suggestions were correct.]
+
+**What would you do differently if you started over?**
+[If I started over, I would spend more time looking through the API implementation before planning the documentation changes. I initially thought the issue would be very simple because it was a documentation issue, but understanding the different request formats and authentication requirements took more investigation than expected. I would also make the plan more detailed from the beginning about which endpoints needed examples and what information each example needed to demonstrate.]
+
+**What are you most proud of from this module?**
+[I am most proud of being able to make a useful contribution to an existing project without changing any application code. The final documentation gives developers concrete curl commands they can use to test the API instead of only describing the endpoints. I also made sure the examples were based on the actual FastAPI implementation, which made the change more than just adding examples that looked correct.]
